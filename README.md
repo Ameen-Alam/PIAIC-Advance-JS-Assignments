@@ -15,3 +15,9 @@ Advance JS Slides By [```Sir Daniyal Nagori``` ](https://docs.google.com/present
   <!-- 8. [](/README.md) -->
   <!-- 9. [](/README.md) -->
   
+
+#### Announcement:-
+
+All the assignments you complete in the zoom lecture... Upload your all assignments in a single Github repository. **Attach a GitHub link to the form only once.**
+
+[Form Link](https://docs.google.com/forms/d/e/1FAIpQLSdWSY8CDdXAJBhkX3W1bMR1vP0GxVYhOZT0Oi4yJDRz-vjYRg/viewform?usp=pp_url)
