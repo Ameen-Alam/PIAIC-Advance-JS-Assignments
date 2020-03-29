@@ -5,4 +5,4 @@ Scope is the accessibility of variables, functions, and objects in some particul
 
 ```comment out each code examples one by one and run.```
 
-[Examples](Scope/index.js)
+[Examples](index.js)
