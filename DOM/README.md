@@ -6,4 +6,4 @@
 
 create TODO list
 
-[To-Do-List](To-Do-List.gif)
+![To-Do-List](To-Do-List.gif)
