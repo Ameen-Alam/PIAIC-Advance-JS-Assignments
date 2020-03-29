@@ -5,4 +5,4 @@ A JavaScript variable is simply a name of storage location. There are two types 
 
 ```comment out each code examples one by one and run.```
 
-[Examples](/index.js)
+[Examples](index.js)
