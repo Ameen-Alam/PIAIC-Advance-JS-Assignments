@@ -4,6 +4,10 @@
 
  #### Assignment
 
-create TODO list
+1. create TODO list UI using DOM
 
-[To-Do-List](To-Do-List.gif)
+![To-Do-List](To-Do-List.png)
+
+2. create TODO list
+
+![To-Do-List](To-Do-List.gif)
