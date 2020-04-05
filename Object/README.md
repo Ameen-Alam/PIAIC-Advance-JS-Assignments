@@ -7,15 +7,19 @@ A JavaScript object has properties associated with it. A property of an object c
 * Create a form through JS DOM
 
 * This form has 3 stages    
-    1. create account via email page ![Form page 1](1.png)
+    1. create account via email page 
+    ![Form page 1](1.png)
 
-    2. Personal information page ![Form page 2](2.png)
+    2. Personal information page 
+    ![Form page 2](2.png)
 
-    3. Career page  ![Form page 3](3.png)
+    3. Career page  
+    ![Form page 3](3.png)
+
 
 
 **Note:**
-When the user fills out the form, store the detail in a variable by creating the appropriate dataset - ``` use JS Object and Array ```
+When the user fills out the form, store the detail in a variable by creating the appropriate dataset - ``` use only advanced JS concepts: Object, Array, Event, Dom, conditional statements, let, const, function and etc```
 
 * print in console
 
