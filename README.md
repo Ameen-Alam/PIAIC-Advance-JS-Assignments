@@ -11,9 +11,12 @@ Advance JS Slides By [```Sir Daniyal Nagori``` ](https://docs.google.com/present
   4. [Variables](Variables/README.md)
   5. [DOM](DOM/README.md)
   6. [EVENTS](EVENTS/README.md)
-  <!-- 7. [](/README.md) -->
+  7. [Object](Object/README.md)
   <!-- 8. [](/README.md) -->
-  <!-- 9. [](/README.md) -->
+  <!-- 10. [](/README.md) -->
+  <!-- 11. [](/README.md) -->
+  <!-- 12. [](/README.md) -->
+  <!-- 13. [](/README.md) -->
   
 
 #### Announcement:-
