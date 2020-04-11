@@ -23,4 +23,5 @@ A closure is the combination of a function bundled together (enclosed) with refe
     ![Shopping Cart Full](shopping-cart-full.png)
 
     3. Shopping Cart.
+    
     ![Shopping Cart](shopping-cart.png)
