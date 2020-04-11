@@ -12,7 +12,7 @@ Advance JS Slides By [```Sir Daniyal Nagori``` ](https://docs.google.com/present
   5. [DOM](DOM/README.md)
   6. [EVENTS](EVENTS/README.md)
   7. [Object](Object/README.md)
-  <!-- 8. [](/README.md) -->
+  8. [Closures](Closures/README.md)
   <!-- 10. [](/README.md) -->
   <!-- 11. [](/README.md) -->
   <!-- 12. [](/README.md) -->
