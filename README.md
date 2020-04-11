@@ -23,4 +23,19 @@ Advance JS Slides By [```Sir Daniyal Nagori``` ](https://docs.google.com/present
 
 All the assignments you complete in the zoom lecture... Upload your all assignments in a single Github repository. **Attach a GitHub link to the form only once.**
 
+
+Create a Github repo with the name of "**PIAIC-Advance-JS-Assignment**"
+Commit and push all assignments in the **PIAIC-Advance-JS-Assignment** repository
+
+
+
+**Note:** Submit a link to your GitHub repo here only once, you will perform all the remaining assignments in the same repo, we will monitor your repository **every week**.
+In the repository, you will create folders in the sequence, e.g.
+1- Template-Literals
+2- Todo-app,
+3- Form,
+4- etc...
+
+
+Attached GitHub link here only once
 [Form Link](https://docs.google.com/forms/d/e/1FAIpQLSdWSY8CDdXAJBhkX3W1bMR1vP0GxVYhOZT0Oi4yJDRz-vjYRg/viewform?usp=pp_url)
