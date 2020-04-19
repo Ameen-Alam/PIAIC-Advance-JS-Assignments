@@ -13,7 +13,7 @@ Advance JS Slides By [```Sir Daniyal Nagori``` ](https://docs.google.com/present
   4. [Variables](Variables/README.md)
   4. [Let&Const](Let_and_Const/README.md)
   5. [DOM](DOM/README.md)
-  6. [EVENTS](EVENTS/README.md)
+  6. [Events](Events/README.md)
   7. [Object](Object/README.md)
   8. [Closures](Closures/README.md)
   <!-- 10. [](/README.md) -->
