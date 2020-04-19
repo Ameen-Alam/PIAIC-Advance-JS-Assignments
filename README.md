@@ -15,6 +15,8 @@ Advance JS Slides By [```Sir Daniyal Nagori``` ](https://docs.google.com/present
   5. [DOM](DOM/README.md)
   6. [Events](Events/README.md)
   7. [Object](Object/README.md)
+  8. [SpreadOperator](SpreadOperator/README.md)
+  8. [RestParameter](RestParameter/README.md)
   8. [Closures](Closures/README.md)
   <!-- 10. [](/README.md) -->
   <!-- 11. [](/README.md) -->
