@@ -3,6 +3,11 @@
 **Template literals** are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them
 
 
+```Practical Code Examples using JavaScript```
+
+[Examples](index.js)
+
+
 ### Assignment
 - Write a cover letter introducing yourself
 ```use personal information through variable```

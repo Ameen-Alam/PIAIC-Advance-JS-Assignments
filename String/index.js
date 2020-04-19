@@ -16,3 +16,8 @@ console.log(longText)
 
 // ******************
 // Examples 3
+
+var firstName = "Ameen Alam"
+var designation = "DevOps Engineer"
+var description = "My Name is " + firstName+", i am " + designation + " at Panacloud"
+console.log(description)
