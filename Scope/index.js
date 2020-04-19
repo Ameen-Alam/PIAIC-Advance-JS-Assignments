@@ -22,7 +22,7 @@ showUserName();// display Daniyal Nagori
 // --------------------------
 //  example : 2
 
-/* 
+
 function createUserName() {
     userName = "Ameen Alam";
 }
@@ -42,14 +42,11 @@ showUserName(); // Ameen Alam
 modifyUserName();
 showUserName(); // Daniyal Nagori 
 
- */
-
-
 
 
 // --------------------------
 //  example : 3
-/* 
+
 
 function createUserName() {
     var userName = "Ameen Alam";
@@ -62,17 +59,12 @@ function showUserName() {
 createUserName();
 showUserName(); // throws error: userName is not defined
 
- */
-
-
-
 
 
 // --------------------------
 //  example : 4
 
 
-/* 
 var userName = "Ameen Alam";
 
 function ShowUserName()
@@ -86,15 +78,11 @@ ShowUserName();
 
 alert(userName); // Ameen Alam
 
- */
-
-
 
 // --------------------------
 //  example : 5
 
 
-/* 
 function NoBlockLevelScope(){
     
     if (1 > 0)
@@ -107,15 +95,12 @@ function NoBlockLevelScope(){
 }
 
 NoBlockLevelScope();
- */
-
 
 
 // --------------------------
 //  example : 6
 
 
-/* 
 var age = 100;
 function go(){
  var age = 200;
@@ -129,15 +114,11 @@ console.log(age);
 // OUTPUT  200 
 // OUTPUT  black 
 // OUTPUT  100 
- */
-
-
+ 
 
 // --------------------------
 //  example : 7
 
-
-/* 
 
 if (true) {
    // userName is in the global scope because of the 'var' keyword
@@ -153,9 +134,6 @@ if (true) {
 console.log(userName); // output 'Ameen Alam'
 console.log(age); // Uncaught ReferenceError: age is not defined
 console.log(skills); // Uncaught ReferenceError: skills is not defined
-
-
-*/
 
 
 // --------------------------
