@@ -2,6 +2,12 @@
 
 A JavaScript **string** stores a series of characters like "Ameen Alam". A string can be any text inside double or single quotes: var userName = "Ameen Alam"
 
+
+```Practical Code Examples using JavaScript```
+
+[Examples](index.js)
+
+
 ### Assignment
 
 - create a varibale name "str1"
