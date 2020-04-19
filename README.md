@@ -7,6 +7,7 @@ Advance JS Slides By [```Sir Daniyal Nagori``` ](https://docs.google.com/present
 #### Contents:
   1. [String](String/README.md)
   2. [Template-Literals](Template-Literals/README.md)
+  2. [Comments](Comments/README.md)
   3. [Scope](Scope/README.md)
   4. [Variables](Variables/README.md)
   5. [DOM](DOM/README.md)
