@@ -10,18 +10,24 @@ Advance JS Slides By [```Sir Daniyal Nagori``` ](https://docs.google.com/present
   2. [Comments](Comments/README.md)
   3. [Scope](Scope/README.md)
   4. [Hoisting](Hoisting/README.md)
-  4. [Variables](Variables/README.md)
-  4. [Let&Const](Let_and_Const/README.md)
-  5. [DOM](DOM/README.md)
-  6. [Events](Events/README.md)
-  7. [Object](Object/README.md)
-  8. [SpreadOperator](SpreadOperator/README.md)
-  8. [RestParameter](RestParameter/README.md)
-  8. [Closures](Closures/README.md)
-  <!-- 10. [](/README.md) -->
-  <!-- 11. [](/README.md) -->
-  <!-- 12. [](/README.md) -->
-  <!-- 13. [](/README.md) -->
+  5. [Variables](Variables/README.md)
+  6. [Let&Const](Let_and_Const/README.md)
+  7. [DOM](DOM/README.md)
+  8. [Events](Events/README.md)
+  9. [Object](Object/README.md)
+  10. [SpreadOperator](SpreadOperator/README.md)
+  11. [RestParameter](RestParameter/README.md)
+  12. [Closures](Closures/README.md)
+  13. [Constructor](Constructor/README.md)
+  14. [Class](Class/README.md)
+  15. [Destructuring](Destructuring/README.md)
+  <!-- 16. [](/README.md) -->
+  <!-- 16. [](/README.md) -->
+  <!-- 16. [](/README.md) -->
+  <!-- 16. [](/README.md) -->
+  <!-- 16. [](/README.md) -->
+  <!-- 16. [](/README.md) -->
+  <!-- 16. [](/README.md) -->
   
 
 #### Announcement:-
