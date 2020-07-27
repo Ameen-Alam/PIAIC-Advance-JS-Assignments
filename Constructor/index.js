@@ -37,10 +37,10 @@ let student4 = {
 // Constructor
 
 
-function Students() { 
+function Students() {
     // unfinished code
-} 
-  
+}
+
 let Student1 = new Students();
 
 
@@ -82,13 +82,13 @@ function Students(n, ag, add){
 }
 
 var rizwan = new Students("rizwan", 20, "address.....")
-console.log(rizwan.func())
+rizwan.func()
 
 var ameen = new Students("ameen", 20, "address.....")
-console.log(ameen.func())
+ameen.func()
 
 var hamza = new Students("hamza", 19, "address.....")
-console.log(hamza.func())
+hamza.func()
 
 
 

@@ -1,38 +1,38 @@
 // -----------------------------------------
 // ----------------------------------------
-//  Example 
+//  Example
 
 
-function buildContor(i) { 
-    var contor = i;
-    var displayContor = function() {
-        console.log(contor++);
-        contor++;
+function buildCounter(i) {
+    var counter = i;
+    var displayCounter = function() {
+        console.log(counter++);
+        counter++;
     };
-    return displayContor; 
+    return displayCounter;
 }
 
-var myContor = buildContor(1);
-myContor(); // 1
-myContor(); // 2
-myContor(); // 3
+var myCounter = buildCounter(1);
+myCounter(); // 1    // display i=1, conter=3
+myCounter(); // 3    // display i=3, conter=5
+myCounter(); // 5    // display i=5, conter=7
 
 // new closure - new outer scope - new contor variable
-var myOtherContor = buildContor(10);
-myOtherContor(); // 10 
-myOtherContor(); // 11
+var myOtherCounter = buildCounter(10);
+myOtherCounter(); // 10
+myOtherCounter(); // 12
 
-// myContor was not affected 
-myContor(); // 4
+// myContor was not affected
+myCounter(); // 7
 
 // -----------------------------------------
 // ----------------------------------------
-//  Example 
+//  Example
 
 
 function initializeData() {
-    var myVar = 1; 
-    return { 
+    var myVar = 1;
+    return {
         getVar: function() {
             return myVar;
         },
@@ -56,12 +56,12 @@ console.log(obj.getVar()); // string
 
 // -----------------------------------------
 // ----------------------------------------
-//  Example 
+//  Example
 
 
 function calculator(){
     let total = Number()
-    
+
     function add(a, b){
         total += a + b
         console.log(total)
@@ -85,22 +85,21 @@ function calculator(){
         mul,
         div,
     }
-    
+
 }
 
 let calc = calculator()
 
-calc.add(2, 2)
-calc.sub(1, 5)
-calc.mul(2, 15)
-calc.mul(2, 2)
-calc.div(2, 2)
-
+calc.add(2, 2)  // 4, total=4
+calc.sub(1, 5)  // 0, total=0
+calc.mul(2, 15) // 30, total=30
+calc.mul(2, 2)  // 34, total=34
+calc.div(2, 2)  // 35, total=35
 
 
 // -----------------------------------------
 // ----------------------------------------
-//  Example 
+//  Example
 
 
 var multThenAdd = num => {
@@ -108,14 +107,13 @@ var multThenAdd = num => {
        return num * mul + add
     }
  }
- 
+
  var timesTwoPlusFour = (num) => multThenAdd(num)(2)(4)
- 
- timesTwoPlusFour(1) //> 6
- timesTwoPlusFour(10) //> 24
+
+console.log( timesTwoPlusFour(1) ); //> 6
+console.log( timesTwoPlusFour(10) ); //> 24
 
 
- 
  // -----------------------------------------
 // ----------------------------------------
-//  Example 
+//  Example

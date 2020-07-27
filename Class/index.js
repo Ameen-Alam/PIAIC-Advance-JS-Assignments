@@ -7,16 +7,15 @@ class Students {
 
 
 class Students {
-    constructor() {
-      this.name = "Ameen Alam";
-    }
+  constructor() {
+    this.name = "Ameen Alam";
   }
-  
-  const student1 = new Students();
-  
-  console.log(student1.name);
-  // expected output: "Ameen Alam"
-  
+}
+
+const student1 = new Students();
+
+console.log(student1.name);
+// expected output: "Ameen Alam"
 
 
 // ******************
@@ -37,7 +36,7 @@ class Students {
 }
 
 var ameen = new Students("ameen", 20, "address...")
-console.log(ameen.func())
+ameen.func()
 
 var rizwan = new Students('rizawan', 19, 'address.....')
 console.log(rizwan)
@@ -79,7 +78,7 @@ class Parent {
     }
 
     func(){
-        
+
     }
 }
 class Child1 extends Parent{
@@ -136,10 +135,3 @@ console.log(_child1)
 
 // ******************
 // Examples 9
-
-
-
-
-
-
-

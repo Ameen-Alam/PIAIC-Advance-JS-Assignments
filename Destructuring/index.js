@@ -10,8 +10,8 @@ console.log(a);
 console.log(b);
 // expected output: 20
 
-[a, b, ...rest] = [10, 20, 30, 40, 50];
-
+[a, b, ...rest] = [11, 21, 30, 40, 50];
+console.log(`a=${a} b=${b}`);
 console.log(rest);
 // expected output: Array [30,40,50]
 
@@ -41,9 +41,9 @@ console.log(arr); // [1,3,2]
 function f() {
     return [1, 2];
   }
-  
-  let a, b; 
-  [a, b] = f(); 
+
+  let a, b;
+  [a, b] = f();
   console.log(a); // 1
   console.log(b); // 2
 
@@ -57,10 +57,10 @@ function f() {
 function f() {
     return [1, 2, 3];
   }
-  
+
   const [a, , b] = f();
   console.log(a); // 1
-  console.log(b); // 
+  console.log(b); // 3
 
 
 
@@ -87,7 +87,7 @@ const user = {
 const {id, is_verified} = user;
 
 console.log(id); // 42
-console.log(is_verified); // true 
+console.log(is_verified); // true
 
 
 
@@ -100,6 +100,7 @@ console.log(is_verified); // true
 let a, b;
 
 ({a, b} = {a: 1, b: 2});
+console.log(`a=${a} b=${b}`);
 
 
 // ******************
@@ -112,8 +113,8 @@ let a, b;
 
 const o = {p: 42, q: true};
 const {p: foo, q: bar} = o;
- 
-console.log(foo); // 42 
+
+console.log(foo); // 42
 console.log(bar); // true
 
 
@@ -152,6 +153,3 @@ console.log(b); // 5
 
 // ******************
 // Examples 12
-
-
-

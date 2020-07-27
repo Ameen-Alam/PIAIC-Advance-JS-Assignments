@@ -6,6 +6,8 @@ let arr = [1, 2, 3]
 let arr2 = [4,5,6]
 let arr3 = [...arr, ...arr2]
 console.log(arr)
+// console.log(arr2)
+// console.log(arr3)
 
 // ******************
 // Examples 2
@@ -25,14 +27,14 @@ console.log(obj3)
 function sum(x, y, z) {
     return x + y + z;
   }
-  
+
   const numbers = [1, 2, 3];
-  
+
   console.log(sum(...numbers));
   // expected output: 6
-  
+
   console.log(sum.apply(null, numbers));
   // expected output: 6
-  
+
 
 // ******************
