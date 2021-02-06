@@ -48,5 +48,3 @@ In the repository, you will create folders in the sequence, e.g.
 4- etc...
 
 
-Attached GitHub link here only once
-[Form Link](https://docs.google.com/forms/d/e/1FAIpQLSdWSY8CDdXAJBhkX3W1bMR1vP0GxVYhOZT0Oi4yJDRz-vjYRg/viewform?usp=pp_url)
