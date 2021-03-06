@@ -36,7 +36,7 @@ let students = {
   address: "Address.../"
 }
 
-console.log(students)         
+console.log(students)
 console.log(students.name)
 console.log(students["name"])
 console.log(students.age)
@@ -78,7 +78,7 @@ const person = {
   name: 'Ameen',
   sports: 'football'
 }
-person.age = {} 
+person.age = {}
 console.log(person);
 
 
@@ -131,10 +131,10 @@ if(obj1 === obj){
 }
 
 var obj = {name: 'dani',age : 21}
-var obj1 = {name: 'dani',age : 21}
+var obj1 = {name: 'mani',age : 21}
 obj = obj1;
 obj.age = 31
-obj1
+console.log(obj1);
 
 
 
@@ -149,7 +149,7 @@ var obj1 = {name: 'dani',age : 21}
 
 var obj = Object.assign( {}, obj1 );
 obj.age = 31
-obj1
+console.log(obj1);
 
 
 
@@ -165,7 +165,7 @@ var obj1 = {name: 'dani',age : 21}
 
 var obj = { ...obj1 }
 obj.age = 31
-obj1
+console.log(obj);
 
 
 
@@ -176,12 +176,12 @@ obj1
 
 
 var obj = {name: 'dani',age : 21}
-var obj1 = {name: 'dani',age : 21, clothes: {shirt: 'white'}};
-​
+var obj1 = {name: 'dani', age : 21, clothes: {shirt: 'white'} };
 var obj = Object.assign({}, obj1);
 obj.age = 31
 obj.clothes.shirt = 'red'
-obj1
+console.log(obj);
+console.log(obj1);
 
 
 
@@ -196,7 +196,7 @@ var stuff = {name: 'dani',age : 21,shoes: 'nike'}
 var stuff1 = {name: 'dani',age : 21, clothes: {shirt: 'white'}};
 
 var mergeObj = {...stuff, ...stuff1 };
-
+console.log(mergeObj);
 
 
 // ******************
@@ -207,15 +207,16 @@ let cat = 'Miaow';
 let dog = 'Woof';
 let bird = 'Peet peet';
 let someObject = {
-  Cat,
-  Dog,
-  Bird 
+  cat,
+  dog,
+  bird
 }
 console.log(someObject);
-//{  cat: "Miaow",
-//  dog: "Woof",
-//  bird: "Peet peet"
-//}
+{
+  cat: "Miaow",
+  dog: "Woof",
+  bird: "Peet peet"
+}
 
 
 
@@ -293,6 +294,7 @@ var handler = {
 };
 var p = new Proxy({}, handler);
 p.answerToTheUltimateQuestionOfLife; //=> 42
+console.log( p.answerToTheUltimateQuestionOfLife );
 
 
 

@@ -16,25 +16,23 @@ var _hit = document.querySelector('.hit');
 var hit1 = document.querySelector('.hit1');
 
 _hit.addEventListener('click', function(){
- console.log('hello123');
+ console.log('you clicked "Hit" button.');
 })
 
 hit1.addEventListener('click',hey)
 
 function hey(){
- console.log('runninggg');
+ console.log('you clicked "Hit1" button.');
 }
 
 
 // ******************
 // Examples 3
 
-
-hit1.removeEventListener('click',hey)
-var hitme = document.querySelectorAll('.hitMe');
-hitme.addEventListener('click',function(){
- console.log('000000');
-})
+// var hitme = document.querySelectorAll('.hitMe');
+// hitme.addEventListener('click',function(){
+//  console.log('000000');
+// })
 var hitme = document.querySelectorAll('.hitMe');
 hitme.forEach(function(but){
  but.addEventListener('click',function(){

@@ -4,18 +4,20 @@
 
 var userName = "Ameen ALam";
 
+// Access & Modify value of default global variable named "userName"
 function modifyUserName() {
-        userName = "Daniyal Nagori";
-    };
+    userName = "Daniyal Nagori";
+};
 
+// Display alert popup showing userName value.
 function showUserName() {
-        alert(userName);
-    };
+    alert(userName);
+};
 
-alert(userName); // display Ameen Alam
+alert(userName); // display Ameen ALam
 
-modifyUserName();
-showUserName();// display Daniyal Nagori
+modifyUserName(); // modify userName to Daniyal Nagori
+showUserName(); // display Daniyal Nagori
 
 
 
@@ -33,14 +35,14 @@ function modifyUserName() {
 };
 
 function showUserName() {
-    alert(userName);  
+    alert(userName);
 }
 
-createUserName();
-showUserName(); // Ameen Alam 
+createUserName();   // local scope variable "Ameen Alam"
+showUserName();     // display Ameen Alam
 
-modifyUserName();
-showUserName(); // Daniyal Nagori 
+modifyUserName();   // modify userName to Daniyal Nagori
+showUserName();     // display Daniyal Nagori
 
 
 
@@ -84,7 +86,7 @@ alert(userName); // Ameen Alam
 
 
 function NoBlockLevelScope(){
-    
+
     if (1 > 0)
     {
         var myVar = 22;
@@ -111,10 +113,10 @@ function go(){
 go();
 console.log(age);
 
-// OUTPUT  200 
-// OUTPUT  black 
-// OUTPUT  100 
- 
+// OUTPUT  200
+// OUTPUT  black
+// OUTPUT  100
+
 
 // --------------------------
 //  example : 7
